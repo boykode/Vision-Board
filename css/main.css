@@ -1,0 +1,75 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: #E8E8E8;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 900px;
+    background-image: url(../img/hero-cover.png);
+    background-size: cover;
+    overflow: auto;
+    color: #697174;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px auto; 
+}
+
+.block {
+    width: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.smaller-block {
+    height: 300px;
+    padding: 10px 0 0 60px;
+}
+
+.smallest-block {
+    height: 250px;
+    padding: 10px 30px;
+}
+
+.large-block {
+    height: 250px;
+    padding: 10px 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.marker {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: lighter;
+}
+
+.eye {
+    color: #697174;
+}
+
+strong {
+    text-transform: none;
+    font-size: 35px;
+}
+
+.highlight {
+    background-color: white;
+    padding: 0px 0px;
+}
+
+.title {
+    color: white;
+    font-size: 65px;
+    padding: 13px;
+    margin-right: 50px;
+    font-weight: normal;
+}
